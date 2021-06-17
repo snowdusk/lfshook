@@ -2,10 +2,11 @@ package lfshook
 
 import (
 	"bytes"
-	"github.com/sirupsen/logrus"
 	"io/ioutil"
 	"os"
 	"testing"
+
+	"github.com/snowdusk/logrus"
 )
 
 const expectedMsg = "This is the expected test message."
